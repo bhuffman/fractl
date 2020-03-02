@@ -1,0 +1,59 @@
+{
+  "name": "gql",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.6.3",
+    "@emotion/core": "^10.0.27",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@nivo/bar": "^0.61.1",
+    "@nivo/calendar": "^0.61.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "emotion": "^10.0.27",
+    "firebase": "^7.7.0",
+    "graphql": "^14.5.8",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "nivo": "^0.31.0",
+    "node-open-geocoder": "^4.0.1",
+    "parse-domain": "^2.3.4",
+    "react": "^16.12.0",
+    "react-anime": "^3.0.3",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-map-gl": "^5.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-social-icons": "^4.1.0",
+    "source-map-explorer": "^2.3.1",
+    "urql": "^1.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://fractlstaging.com/misc/mattd/cg/"
+}

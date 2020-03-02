@@ -1,0 +1,21 @@
+.social-icon {
+  margin-right: 10px;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+td {
+  max-width: 800px
+}
+
+.author-email-list div {
+  display: inline-block
+}
+
+.saved-authors-dropdown-shadow .dropdown-menu {
+  box-shadow: 0px 0px 20px 0 rgba(0,0,0,0.25)
+}
+
+.tooltip-inner, .tooltip > .arrow {
+  margin-bottom: 6px;
+}
