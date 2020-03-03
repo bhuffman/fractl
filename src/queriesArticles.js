@@ -1,0 +1,64 @@
+export const getArticle = `
+query Article ($URL:String){
+  Article (DocumentIdentifier:$URL){
+    DocumentIdentifier
+    Text
+    Title
+    date{
+      month
+      day
+      year
+    }
+    top_article
+    tone_overall
+    tone_negative
+    tone_positive
+    associated_image
+    Entities(URL:$URL){
+      Entity
+      Mentions
+    }
+    Keywords(URL:$URL){
+      Keyword
+      Mentions
+    }
+    Main_Topics(URL:$URL){
+      Main_Topic
+      Weight
+    }
+    Sub_Topics(URL:$URL){
+      Sub_Topic
+      Weight
+    }
+    Author_Information(URL:$URL){
+      Name
+      Emails
+      Twitter
+    }
+    Publisher_Information(URL:$URL){
+      Domain_Name
+      Open_Page_Rank
+      Domain_Authority
+    }
+    Links_To (URL:$URL){
+      Title
+      URL
+      Date{
+        month
+        day
+        year
+      }
+      Link_Type
+    }
+    Links_From (URL:$URL){
+      Title
+      URL
+      Date{
+        month
+        day
+        year
+      }
+      Link_Type
+    }
+}
+}`

@@ -15,6 +15,7 @@ import VpnKeyIcon from "@material-ui/icons/VpnKey"
 import MenuBookIcon from "@material-ui/icons/MenuBook"
 import { NotebookKea } from "../../keas/notebook-kea"
 import { makeStyles } from "@material-ui/core/styles"
+import Badge from "@material-ui/core/Badge"
 
 const useStyles = makeStyles(theme => ({
   count: {
@@ -50,10 +51,9 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <>
+            <Badge badgeContent={length(props.authors)} color="primary">
               <PersonIcon />
-              <div className={classes.count}>{length(props.authors)}</div>
-            </>
+            </Badge>
           </ListItemIcon>
           <ListItemText primary="Authors" />
         </RouterLink>
@@ -69,10 +69,9 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <>
+            <Badge badgeContent={length(props.entities)} color="primary">
               <BusinessIcon />
-              <div className={classes.count}>{length(props.entities)}</div>
-            </>
+            </Badge>
           </ListItemIcon>
           <ListItemText primary="Entities" />
         </RouterLink>
@@ -88,10 +87,9 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <>
+            <Badge badgeContent={length(props.topics)} color="primary">
               <FormatListBulletedIcon />
-              <div className={classes.count}>{length(props.topics)}</div>
-            </>
+            </Badge>
           </ListItemIcon>
           <ListItemText primary="Topics" />
         </RouterLink>
@@ -107,10 +105,9 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <>
+            <Badge badgeContent={length(props.keywords)} color="primary">
               <VpnKeyIcon />
-              <div className={classes.count}>{length(props.keywords)}</div>
-            </>
+            </Badge>
           </ListItemIcon>
           <ListItemText primary="Keywords" />
         </RouterLink>
@@ -126,10 +123,9 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <>
+            <Badge badgeContent={length(props.articles)} color="primary">
               <MenuBookIcon />
-              <div className={classes.count}>{length(props.articles)}</div>
-            </>
+            </Badge>
           </ListItemIcon>
           <ListItemText primary="Articles" />
         </RouterLink>

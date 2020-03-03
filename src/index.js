@@ -7,6 +7,7 @@ import { Auth0Provider } from "./react-auth0-spa"
 import history from "./utils/history"
 import { resetContext, getContext } from "kea"
 import { Provider } from "react-redux"
+import localStoragePlugin from "kea-localstorage"
 
 const onRedirectCallback = appState => {
   history.push(
@@ -18,7 +19,7 @@ const onRedirectCallback = appState => {
 
 resetContext({
   createStore: {},
-  plugins: []
+  plugins: [localStoragePlugin]
 })
 
 ReactDOM.render(

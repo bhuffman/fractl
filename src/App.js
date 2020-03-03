@@ -12,6 +12,7 @@ import StatusMessage from "./components/StatusMessage"
 import ProfileLists from "./components/ProfileLists"
 import Keywords from "./components/Keywords"
 import Dashboard from "./pages/dashboard/dashboard"
+import Article from "./pages/Article/article"
 
 import { firebaseClient } from "./firebase"
 import { useAuth0 } from "./react-auth0-spa"
@@ -112,7 +113,9 @@ const App = () => {
     <Provider value={GraphQLClient}>
       <Router>
         {isAuthenticated && (
-          <Dashboard />
+          <Dashboard>
+            <Article />
+          </Dashboard>
           // <Switch>
           //   <Route path="/lists">
           //     <Search

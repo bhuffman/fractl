@@ -1,0 +1,1087 @@
+{
+  "data": {
+    "Article": [
+      {
+        "DocumentIdentifier": "https://www.nytimes.com/2020/02/26/us/politics/trump-coronavirus-strategy.html",
+        "Open_Page_Rank": null,
+        "Text": "WASHINGTON President Trump, whose government is leading an effort to combat the spread of the coronavirus in the United States, offered some tips on Wednesday to avoid getting sick, and as he did so, he revealed a little more about his lifelong aversion to germs.\n\nI do it a lot, anyway, as youve probably heard: Wash your hands, he told reporters gathered at the White House for a news conference on the global epidemic. Stay clean. You dont have to necessarily grab every handrail unless you have to. You know, you do certain things.\n\nMr. Trumps self-declared germophobia is well documented. In his 2004 book, How to Get Rich, he detailed what he called a personal crusade to replace the mandatory and unsanitary handshake with the Japanese custom of bowing.\n\nHis stance on combating illness as president has in some ways matched how he behaved as a private citizen KEEP THEM OUT OF HERE! he wrote on Twitter in 2014 days before an American aid worker infected with the Ebola virus in West Africa during a severe outbreak there returned to the United States. That has alarmed experts who have said he is not the right person to be leading the charge.",
+        "Title": "Trumps Coronavirus Strategy: Stay Clean, Wash Hands and Avoid Friends",
+        "date": {
+          "month": 2,
+          "day": 27,
+          "year": 2020
+        },
+        "top_article": null,
+        "Entities": [
+          {
+            "Entity": "Trumps",
+            "Mentions": 1
+          },
+          {
+            "Entity": "Trump",
+            "Mentions": 1
+          },
+          {
+            "Entity": "American",
+            "Mentions": 1
+          },
+          {
+            "Entity": "West africa",
+            "Mentions": 1
+          },
+          {
+            "Entity": "Washington",
+            "Mentions": 1
+          },
+          {
+            "Entity": "Japanese",
+            "Mentions": 1
+          }
+        ],
+        "Keywords": [],
+        "Main_Topics": [
+          {
+            "Main_Topic": "Medical health",
+            "Weight": 0.5861375331878662
+          },
+          {
+            "Main_Topic": "Style and fashion",
+            "Weight": 0.30838334560394287
+          }
+        ],
+        "Sub_Topics": [
+          {
+            "Sub_Topic": "Vaccines",
+            "Weight": 0.4192875325679779
+          },
+          {
+            "Sub_Topic": "Cold and flu",
+            "Weight": 0.3470331132411957
+          },
+          {
+            "Sub_Topic": "Infectious diseases",
+            "Weight": 0.1517643928527832
+          }
+        ],
+        "Author_Information": [
+          {
+            "Name": "Katie Rogers",
+            "Emails": "krogers@wellandtribune.ca, krogers@stcatharinesstandard.ca, katie.rogers@nytimes.com, krogers@thespec.com",
+            "Twitter": null
+          }
+        ],
+        "Publisher_Information": [
+          {
+            "Domain_Name": "nytimes.com",
+            "Open_Page_Rank": 8.86,
+            "Domain_Authority": 95
+          }
+        ],
+        "Links_To": [
+          {
+            "Title": "HPR Streaming Music Show Archive",
+            "URL": "https://www.hawaiipublicradio.org/post/hpr-streaming-music-show-archive",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Magazine Subscription - Member Benefit Update",
+            "URL": "https://www.hawaiipublicradio.org/post/magazine-subscription-member-benefit-update",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "WFP Lao PDR Country Brief, September 2019 - Lao People's Democratic Republic (the)",
+            "URL": "https://reliefweb.int/report/lao-peoples-democratic-republic/wfp-lao-pdr-country-brief-september-2019",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "48 hours in Luang Prabang, Laos",
+            "URL": "https://www.thelondoneconomic.com/travel/destinations/48-hours-in-luang-prabang-laos/06/01/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Owners of collapsed Cambodia building charged, released on bail",
+            "URL": "https://www.channelnewsasia.com/news/asia/owners-of-collapsed-cambodia-building-charged--released-on-bail-12240710",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Taming the waters in Xayaboury Province [EN/LO] - Lao People's Democratic Republic (the)",
+            "URL": "https://reliefweb.int/report/lao-peoples-democratic-republic/taming-waters-xayaboury-province-enlo",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Four Tips To Help You Enjoy A Motorcycle Ride To Laos",
+            "URL": "https://aboutmanchester.co.uk/four-tips-to-help-you-enjoy-a-motorcycle-ride-to-laos/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "36 Killed in Collapse of Hotel Under Construction in Cambodia",
+            "URL": "https://www.democracynow.org/2020/1/6/headlines/36_killed_in_collapse_of_under_construction_hotel_in_cambodia",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "UPDATE 1-Ten dead in Cambodia building collapse, more trapped",
+            "URL": "https://www.reuters.com/article/cambodia-collapse/update-1-ten-dead-in-cambodia-building-collapse-more-trapped-idUSL4N299026",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Outdoors",
+            "URL": "https://www.theadvocate.com/baton_rouge/sports/outdoors/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "All the dumb things? UFO project has $37 million deficit [Updated]",
+            "URL": "https://arstechnica.com/science/2018/10/all-the-dumb-things-blink-182-front-mans-ufo-project-37-million/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "All the dumb things? UFO project has $37 million deficit [Updated]",
+            "URL": "https://arstechnica.com/science/2018/10/all-the-dumb-things-blink-182-front-mans-ufo-project-37-million/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "Today Show lineup Karl Stefanovic returns alongside Allison Langdon as Georgie Gardner turns to news",
+            "URL": "https://9now.nine.com.au/today/today-show-lineup-karl-stefanovic-returns-as-georgie-gardner-turns-to-news/068e248b-eec4-4646-9242-3fe3846541bf",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Outdoors",
+            "URL": "https://www.theadvocate.com/baton_rouge/sports/outdoors/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Following report of death, John Singleton’s representatives say he’s still in a coma",
+            "URL": "https://fox4kc.com/2019/04/29/john-singleton-boyz-n-the-hood-director-and-writer-dies-at-age-51/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Projects App",
+            "URL": "https://www.refinitiv.com/en/products/eikon-trading-software/mena-project-tracker",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Company Data",
+            "URL": "https://www.refinitiv.com/en/financial-data/company-data/middle-east-company-data",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Five reasons Chris Hemsworth could be in Gladstone",
+            "URL": "https://www.themorningbulletin.com.au/news/five-reasons-chris-hemsworth-could-be-in-gladstone/3939019/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Outdoors",
+            "URL": "https://www.theadvocate.com/baton_rouge/sports/outdoors/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Outdoors",
+            "URL": "https://www.theadvocate.com/baton_rouge/sports/outdoors/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Watch Tools Danny Carey Play Peter Gabriel Song With Primus",
+            "URL": "https://ultimateclassicrock.com/tool-primus-intruder/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Revisiting Tools Fourth Album, 10,000 Days",
+            "URL": "https://ultimateclassicrock.com/tool-10000-days/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Tools Danny Carey Says New Album Due in April",
+            "URL": "https://ultimateclassicrock.com/new-tool-album-april-2019/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Tool Announce 2019 U.S. Tour",
+            "URL": "https://ultimateclassicrock.com/tool-2019-u-s-tour/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Top 10 Tool Songs",
+            "URL": "https://ultimateclassicrock.com/top-tool-songs/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Watch Tool Debut Two New Songs Live",
+            "URL": "https://ultimateclassicrock.com/tool-new-songs-live/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Projects App",
+            "URL": "https://www.refinitiv.com/en/products/eikon-trading-software/mena-project-tracker",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Company Data",
+            "URL": "https://www.refinitiv.com/en/financial-data/company-data/middle-east-company-data",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Picnic to protest tourists’ eviction from Playa del Carmen beach club",
+            "URL": "https://mexiconewsdaily.com/news/playa-picnic-to-protest-tourists-eviction-from-beach-club/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Analysts dole out 2020 predictions",
+            "URL": "https://www.gamesindustry.biz/articles/2020-01-02-analysts-dole-out-2020-predictions",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Analysts dole out 2020 predictions",
+            "URL": "http://www.gamesindustry.biz/articles/2020-01-02-analysts-dole-out-2020-predictions",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "2018 Senate Forecast",
+            "URL": "https://projects.fivethirtyeight.com/2018-midterm-election-forecast/senate/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "FAKE NEWS: ABC Peddles Hysterically Wrong Map of Australian Wildfires",
+            "URL": "https://pjmedia.com/vodkapundit/fake-news-abc-news-peddles-hysterically-wrong-map-of-australian-wildfires/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Suzanne Somers, 73, shares her wisdom on aging: 'The best is yet to come'",
+            "URL": "https://www.today.com/style/suzanne-somers-shares-wisdom-aging-best-yet-come-t171256",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Company Data",
+            "URL": "https://www.refinitiv.com/en/financial-data/company-data/middle-east-company-data",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Projects App",
+            "URL": "https://www.refinitiv.com/en/products/eikon-trading-software/mena-project-tracker",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Projects App",
+            "URL": "https://www.refinitiv.com/en/products/eikon-trading-software/mena-project-tracker",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "MENA Company Data",
+            "URL": "https://www.refinitiv.com/en/financial-data/company-data/middle-east-company-data",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "After 8 years with Northern Ireland, Michael O'Neill confirmed as new Stoke manager",
+            "URL": "https://www.the42.ie/after-8-years-with-northern-ireland-michael-oneill-confirmed-as-new-stoke-manager-4884260-Nov2019/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "FAKE NEWS: ABC Peddles Hysterically Wrong Map of Australian Wildfires",
+            "URL": "https://pjmedia.com/vodkapundit/fake-news-abc-news-peddles-hysterically-wrong-map-of-australian-wildfires/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Route Exchange :: Routesonline",
+            "URL": "https://www.routesonline.com/route-exchange/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Outdoors",
+            "URL": "https://www.theadvocate.com/baton_rouge/sports/outdoors/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Eric Paslay Welcomes Daughter Piper with Wife Natalie",
+            "URL": "https://people.com/parents/eric-paslay-welcomes-daughter-piper-lily/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Our Brands",
+            "URL": "https://www.dotdash.com/our-brands/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Our Brands",
+            "URL": "https://www.dotdash.com/our-brands/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "Treason? Ilhan Omar Gives Military Advice Against Trump to Iran",
+            "URL": "https://pjmedia.com/trending/treason-ilhan-omar-gives-iran-military-advice-suggests-it-target-trump-hotels/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Police: Man killed after vehicle malfunction caused crash in Franklin Co.",
+            "URL": "https://wset.com/news/local/police-man-killed-after-vehicle-malfunction-caused-crash-in-franklin-co",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Today Show lineup Karl Stefanovic returns alongside Allison Langdon as Georgie Gardner turns to news",
+            "URL": "https://9now.nine.com.au/today/today-show-lineup-karl-stefanovic-returns-as-georgie-gardner-turns-to-news/068e248b-eec4-4646-9242-3fe3846541bf",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "13 Things You Didnt Know About Carrie Underwood",
+            "URL": "https://tasteofcountry.com/carrie-underwood-things/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "What to Do",
+            "URL": "https://www.dayton.com/what-to-do/",
+            "Date": {
+              "month": null,
+              "day": null,
+              "year": null
+            },
+            "Link_Type": "DoFollow"
+          }
+        ],
+        "Links_From": [
+          {
+            "Title": "Preliminary data shows record drop in New Jerseys HIV/AIDS cases",
+            "URL": "https://whyy.org/articles/preliminary-data-shows-record-drop-in-new-jerseys-hiv-aids-cases/",
+            "Date": {
+              "month": 12,
+              "day": 9,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Will Hip-Hop Make Long-Awaited History at the Grammys With Wins in Record or Song of the Year?",
+            "URL": "https://hollywoodreporter.com/news/will-hip-hop-make-history-at-grammys-wins-record-song-year-1184619",
+            "Date": {
+              "month": 2,
+              "day": 9,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "The top 10 easiest countries to immigrate to as an expat",
+            "URL": "https://expatica.com/moving/location/top-10-easiest-countries-to-immigrate-to-9644/",
+            "Date": {
+              "month": 6,
+              "day": 14,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Beto or Bust: Hollywood Reporter Showcases Liberal Love for O'Rourke",
+            "URL": "https://newsbusters.org/blogs/culture/jacob-comello/2018/12/12/beto-or-bust-thr-reveals-hollywood-womens-2020-ticket-picks",
+            "Date": {
+              "month": 12,
+              "day": 12,
+              "year": 2018
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Town wonders if iconic hedges at Cape Cod rotary could use a new Bourne Identity",
+            "URL": "https://www.masslive.com/news/2019/12/town-wonders-if-iconic-hedges-at-cape-cod-rotary-could-use-a-new-bourne-identity.html",
+            "Date": {
+              "month": 12,
+              "day": 30,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "July 26th – 2019 Presidential Politics – Trump Administration Day #918",
+            "URL": "https://theconservativetreehouse.com/2019/07/26/july-26th-2019-presidential-politics-trump-administration-day-918/comment-page-1/",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "Here And Now",
+            "URL": "https://nystateofpolitics.com/2019/07/here-and-now-2314/",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Rudy Giuliani Is Finally Americas Mayor",
+            "URL": "https://buzzfeednews.com/article/mattberman/rudy-giuliani-impeachment-ukraine-donald-trump-fox-news",
+            "Date": {
+              "month": 10,
+              "day": 3,
+              "year": 2019
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "Rudy Giuliani's wife says he works for President Trump for free to lower his alimony payments",
+            "URL": "https://dailymail.co.uk/news/article-7288025/Rudy-Giulianis-wife-says-works-President-Trump-free-lower-alimony-payments.html",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "How Christmas in July Plagued Trumpworld This Week",
+            "URL": "https://vanityfair.com/style/2019/07/melania-trump-rudy-giuliani-christmas-in-july",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "The Year in Rudy Giuliani, Tabloid Fixture",
+            "URL": "https://www.vanityfair.com/style/2019/12/year-in-rudy-giuliani-tabloid-fixture",
+            "Date": {
+              "month": 12,
+              "day": 30,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Politics isnt just news anymore",
+            "URL": "https://kprcradio.iheart.com/content/2019-07-26-politics-isnt-just-news-anymore/",
+            "Date": {
+              "month": 7,
+              "day": 29,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "How Celebrities Compete to Win the Holiday Decorating Olympics",
+            "URL": "https://www.townandcountrymag.com/leisure/arts-and-culture/a29812465/celebrities-christmas-decorations-olympics/",
+            "Date": {
+              "month": 11,
+              "day": 25,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Rudy Giuliani Is Finally Americas Mayor",
+            "URL": "https://buzzfeednews.com/article/mattberman/rudy-giuliani-impeachment-ukraine-donald-trump-fox-news",
+            "Date": {
+              "month": 10,
+              "day": 3,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "The Year in Rudy Giuliani, Tabloid Fixture",
+            "URL": "https://www.vanityfair.com/style/2019/12/year-in-rudy-giuliani-tabloid-fixture",
+            "Date": {
+              "month": 12,
+              "day": 30,
+              "year": 2019
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "How Christmas in July Plagued Trumpworld This Week",
+            "URL": "https://vanityfair.com/style/2019/07/melania-trump-rudy-giuliani-christmas-in-july",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Rudy and Judith Giuliani finalize divorce",
+            "URL": "https://www.foxbusiness.com/lifestyle/rudy-giuliani-divorce-judith-giuliani",
+            "Date": {
+              "month": 12,
+              "day": 11,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Rudy Giuliani's wife says he works for President Trump for free to lower his alimony payments",
+            "URL": "https://dailymail.co.uk/news/article-7288025/Rudy-Giulianis-wife-says-works-President-Trump-free-lower-alimony-payments.html",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "July 26th – 2019 Presidential Politics – Trump Administration Day #918",
+            "URL": "https://theconservativetreehouse.com/2019/07/26/july-26th-2019-presidential-politics-trump-administration-day-918/comment-page-1/",
+            "Date": {
+              "month": 7,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "WIRE Buzz: Wonder Woman 1984 is finished; Carrie miniseries; more",
+            "URL": "https://www.syfy.com/syfywire/wire-buzz-wonder-woman-1984-carrie-the-witcher",
+            "Date": {
+              "month": 12,
+              "day": 23,
+              "year": 2019
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "WIRE Buzz: Wonder Woman 1984 is finished; Carrie miniseries; more",
+            "URL": "https://www.syfy.com/syfywire/wire-buzz-wonder-woman-1984-carrie-the-witcher",
+            "Date": {
+              "month": 12,
+              "day": 23,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Wonder Woman 1984 Is Already Finished",
+            "URL": "https://comicbook.com/dc/2019/12/22/wonder-woman-1984-finished-patty-jenkins-gal-gadot/",
+            "Date": {
+              "month": 12,
+              "day": 22,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Wonder Woman 1984 Is 'Technically Done' And Here's The First Cut's Runtime",
+            "URL": "https://www.cinemablend.com/news/2487309/wonder-woman-1984-is-technically-done-and-heres-the-first-cuts-runtime",
+            "Date": {
+              "month": 12,
+              "day": 21,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Joining Tailscale",
+            "URL": "https://bradfitz.com/2020/01/30/joining-tailscale",
+            "Date": {
+              "month": 1,
+              "day": 30,
+              "year": 2020
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Post-holiday miscellanea",
+            "URL": "https://morrick.me/archives/8543",
+            "Date": {
+              "month": 9,
+              "day": 7,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Justin Bieber is Planning a Comeback Instead of Just Going Away Forever",
+            "URL": "https://theblemish.com/2019/12/justin-bieber-is-planning-a-comeback-instead-of-just-going-away-forever/",
+            "Date": {
+              "month": 12,
+              "day": 26,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Snowfall warning in effect for the Okanagan – BC Local News",
+            "URL": "https://www.bclocalnews.com/news/snowfall-warning-in-effect-for-the-okanagan/",
+            "Date": {
+              "month": 1,
+              "day": 6,
+              "year": 2020
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Snowfall warning in effect for the Okanagan – Vernon Morning Star",
+            "URL": "https://www.vernonmorningstar.com/news/snowfall-warning-in-effect-for-the-okanagan/",
+            "Date": {
+              "month": 1,
+              "day": 6,
+              "year": 2020
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Snowfall warning in effect for the Okanagan – Salmon Arm Observer",
+            "URL": "https://www.saobserver.net/news/snowfall-warning-in-effect-for-the-okanagan/",
+            "Date": {
+              "month": 1,
+              "day": 6,
+              "year": 2020
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "ANA announces its revised flight schedules for FY 2020",
+            "URL": "https://worldairlinenews.com/2020/01/27/ana-announces-its-revised-flight-schedules-for-fy-2020/",
+            "Date": {
+              "month": 1,
+              "day": 27,
+              "year": 2020
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Polish Aviation Group (PGL), the owner of LOT Polish Airlines, announces the acquisition of Condor",
+            "URL": "https://worldairlinenews.com/2020/01/27/polish-aviation-group-pgl-the-owner-of-lot-polish-airlines-announces-the-acquisition-of-condor/",
+            "Date": {
+              "month": 1,
+              "day": 27,
+              "year": 2020
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "2 men arrested on suspicion of stealing Riley Hospital donation box from gas station",
+            "URL": "https://indystar.com/story/news/fox59/2019/02/09/indianapolis-crime-2-men-arrested-suspicion-stealing-riley-hospital-donation-box/2826553002/",
+            "Date": {
+              "month": 2,
+              "day": 10,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Auckland fruit flies: Two more found in city",
+            "URL": "https://freshplaza.com/article/9079369/auckland-fruit-flies-two-more-found-in-city/",
+            "Date": {
+              "month": 3,
+              "day": 6,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "'Not To My Knowledge' OU President Says About OU-OSBI Cooperatio",
+            "URL": "https://m.newson6.com/story/40455625/not-to-my-knowledge-ou-president-says-about-ouosbi-cooperation-in-boren-investigation",
+            "Date": {
+              "month": 5,
+              "day": 11,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "School bans songs mentioning Jesus from annual Christmas concert",
+            "URL": "https://christiantoday.com.au/news/school-bans-songs-mentioning-jesus-from-annual-christmas-concert.html",
+            "Date": {
+              "month": 10,
+              "day": 16,
+              "year": 2018
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Virginia School Bans All Songs Mentioning 'Jesus' at Annual Christmas Concert",
+            "URL": "https://christianpost.com/news/virginia-school-bans-all-songs-mentioning-jesus-christmas-concert-227924/",
+            "Date": {
+              "month": 10,
+              "day": 12,
+              "year": 2018
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "School bans songs mentioning Jesus from annual Christmas concert",
+            "URL": "https://christiantoday.com/article/school-bans-songs-mentioning-jesus-from-annual-christmas-concert/130692.htm",
+            "Date": {
+              "month": 10,
+              "day": 13,
+              "year": 2018
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Virginia Middle School Bans All Songs Mentioning Jesus at Annual Christmas Concert",
+            "URL": "https://blackchristiannews.com/2018/10/virginia-middle-school-bans-all-songs-mentioning-jesus-at-annual-christmas-concert/",
+            "Date": {
+              "month": 10,
+              "day": 13,
+              "year": 2018
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Virginia School Bans All Songs Mentioning 'Jesus' at Annual Christmas Concert",
+            "URL": "https://crossmap.com/news/virginia-school-bans-all-songs-mentioning-jesus-at-annual-christmas-concert.html",
+            "Date": {
+              "month": 10,
+              "day": 13,
+              "year": 2018
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Virginia School Bans All Songs Mentioning 'Jesus' at Annual Christmas Concert",
+            "URL": "https://christianpost.com/news/virginia-school-bans-all-songs-mentioning-jesus-christmas-concert-227924/",
+            "Date": {
+              "month": 10,
+              "day": 12,
+              "year": 2018
+            },
+            "Link_Type": "NoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://rock967.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://laser1017.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://kjkj.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://knrs.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://power107.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://bigdog959.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://khvhradio.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://throwback1053.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://kashcountry1075.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          },
+          {
+            "Title": "Louisiana Man Steals Motorized Shopping Cart Hoping To Avoid A DWI",
+            "URL": "https://107mus.iheart.com/content/2019-11-05-louisiana-man-steals-motorized-shopping-cart-hoping-to-avoid-a-dwi/",
+            "Date": {
+              "month": 11,
+              "day": 5,
+              "year": 2019
+            },
+            "Link_Type": "DoFollow"
+          }
+        ]
+      }
+    ]
+  }
+}

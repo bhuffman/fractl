@@ -104,7 +104,7 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-function Dashboard() {
+function Dashboard(props) {
   const classes = useStyles()
   const [open, setOpen] = React.useState(true)
   const handleDrawerOpen = () => {
@@ -156,6 +156,7 @@ function Dashboard() {
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
+          {props.children}
           <Switch>
             {/* <Route exact path={path}>
               <DashboardContent />
