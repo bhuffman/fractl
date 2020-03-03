@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import "./styles/App.css"
 import "mapbox-gl/src/css/mapbox-gl.css"
 import { Provider, createClient } from "urql"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
 import Authors from "./components/Authors"
 import Search from "./components/Search"
@@ -10,6 +11,7 @@ import NavigationBar from "./components/NavigationBar"
 import StatusMessage from "./components/StatusMessage"
 import ProfileLists from "./components/ProfileLists"
 import Keywords from "./components/Keywords"
+import Dashboard from "./pages/dashboard/dashboard"
 
 import { firebaseClient } from "./firebase"
 import { useAuth0 } from "./react-auth0-spa"
@@ -108,30 +110,70 @@ const App = () => {
 
   return (
     <Provider value={GraphQLClient}>
-      <NavigationBar setPage={changePageHandler} />
-      {isAuthenticated && getPageName !== "lists" && (
-        <Search
-          setSearch={setSearchHandler}
-          changeSearch={changeSearch}
-          recentAuthors={getRecentAuthorSearches}
-          recentKeywords={getRecentKeywordSearches}
-          pageName={getPageName}
-        />
-      )}
-      {isAuthenticated && getPageName === "authors" && (
-        <Authors authorName={getSearch} changeSearch={loadSearchViaChild} />
-      )}
-      {isAuthenticated && getPageName === "keywords" && (
-        <Keywords
-          keywordName={getSearch}
-          changeSearch={changeSearch}
-          changeAuthor={loadSearchViaChild}
-        />
-      )}
-      {isAuthenticated && getPageName === "lists" && (
-        <ProfileLists changeSearch={loadSearchViaChild} />
-      )}
-      {!isAuthenticated && <LoginNotice />}
+      <Router>
+        {isAuthenticated && (
+          <Dashboard />
+          // <Switch>
+          //   <Route path="/lists">
+          //     <Search
+          //       setSearch={setSearchHandler}
+          //       changeSearch={changeSearch}
+          //       recentAuthors={getRecentAuthorSearches}
+          //       recentKeywords={getRecentKeywordSearches}
+          //       pageName={getPageName}
+          //     />
+          //   </Route>
+          //   <Route path="/AuthorSearch">
+          //     <Authors
+          //       authorName={getSearch}
+          //       changeSearch={loadSearchViaChild}
+          //     />
+          //   </Route>
+          //   <Route path="/Keyword">
+          //     <Keywords
+          //       keywordName={getSearch}
+          //       changeSearch={changeSearch}
+          //       changeAuthor={loadSearchViaChild}
+          //     />
+          //   </Route>
+          //   <Route path="/lists">
+          //     <ProfileLists changeSearch={loadSearchViaChild} />
+          //   </Route>
+          //   <Route path="/">
+          //     <div>Home </div>
+          //   </Route>
+          // </Switch>
+        )}
+        {!isAuthenticated && (
+          <>
+            <NavigationBar setPage={changePageHandler} />
+            <LoginNotice />
+          </>
+        )}
+        {/* {isAuthenticated && getPageName !== "lists" && (
+          <Search
+            setSearch={setSearchHandler}
+            changeSearch={changeSearch}
+            recentAuthors={getRecentAuthorSearches}
+            recentKeywords={getRecentKeywordSearches}
+            pageName={getPageName}
+          />
+        )}
+        {isAuthenticated && getPageName === "authors" && (
+          <Authors authorName={getSearch} changeSearch={loadSearchViaChild} />
+        )}
+        {isAuthenticated && getPageName === "keywords" && (
+          <Keywords
+            keywordName={getSearch}
+            changeSearch={changeSearch}
+            changeAuthor={loadSearchViaChild}
+          />
+        )}
+        {isAuthenticated && getPageName === "lists" && (
+          <ProfileLists changeSearch={loadSearchViaChild} />
+        )}
+         */}
+      </Router>
     </Provider>
   )
 }
