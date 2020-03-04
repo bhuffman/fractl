@@ -8,6 +8,12 @@ import history from "./utils/history"
 import { resetContext, getContext } from "kea"
 import { Provider } from "react-redux"
 import localStoragePlugin from "kea-localstorage"
+import ApolloClient from "apollo-boost"
+import { ApolloProvider } from "@apollo/react-hooks"
+
+const client = new ApolloClient({
+  uri: "https://graphql.frac.tl:3333/graphql"
+})
 
 const onRedirectCallback = appState => {
   history.push(
@@ -29,9 +35,11 @@ ReactDOM.render(
     redirect_uri={window.location.href}
     onRedirectCallback={onRedirectCallback}
   >
-    <Provider store={getContext().store}>
-      <App />
-    </Provider>
+    <ApolloProvider client={client}>
+      <Provider store={getContext().store}>
+        <App />
+      </Provider>
+    </ApolloProvider>
   </Auth0Provider>,
   document.getElementById("root")
 )

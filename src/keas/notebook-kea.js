@@ -4,6 +4,7 @@ import { append, set, lensIndex, remove, mergeRight } from "ramda"
 export const NotebookKea = kea({
   path: () => ["scenes", "user", "notebook"],
   actions: () => ({
+    setActive: active => ({ active }),
     setArticles: content => ({ content }),
     setTopics: content => ({ content }),
     setEntities: content => ({ content }),
@@ -12,6 +13,16 @@ export const NotebookKea = kea({
     setLayout: content => ({ content })
   }),
   reducers: ({ actions }) => ({
+    active: [
+      {
+        articleUrl:
+          "https://www.nytimes.com/2019/03/12/us/college-admissions-cheating-scandal.html"
+      },
+      {
+        [actions.setActive]: (state, payload) =>
+          mergeRight(state, payload.active)
+      }
+    ],
     articles: [
       [],
       {

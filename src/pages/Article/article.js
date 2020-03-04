@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useRef, useState } from "react"
 import {
   compose,
   mergeRight,
@@ -19,7 +19,8 @@ import CardKeyword from "./card-keywords"
 import CardBacklinksIn from "./card-backlinks-in"
 import testArticle from "../../assets/test.json"
 
-import { useQuery } from "urql"
+// import { useQuery } from "urql"
+import { useQuery } from "@apollo/react-hooks"
 import { getArticle } from "../../queriesArticles"
 
 const ResponsiveGridLayout = WidthProvider(Responsive)
@@ -59,19 +60,14 @@ const useStyles = makeStyles(theme => ({
 
 const DrawerItems = props => {
   const classes = useStyles()
-  const [articleQuery] = useQuery({
-    query: getArticle,
+  const { loading, error, data } = useQuery(getArticle, {
     variables: {
-      URL:
-        "https://www.nytimes.com/2019/03/12/us/college-admissions-cheating-scandal.html"
+      URL: props.active.articleUrl
     }
   })
 
   const articleData =
-    articleQuery.fetching || isNil(articleQuery.data)
-      ? null
-      : head(defaultTo([], path(["data", "Article"], articleQuery)))
-  console.log(articleQuery)
+    loading || isNil(data) ? null : head(defaultTo([], path(["Article"], data)))
   return (
     <div>
       <ResponsiveGridLayout

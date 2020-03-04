@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fractl-dev-101101-authRole",
+            "UnauthRoleArn": "arn:aws:iam::736159533590:role/amplify-fractl-dev-101101-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::736159533590:role/amplify-fractl-dev-101101-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-fractl-dev-101101-deployment",
+            "UnauthRoleName": "amplify-fractl-dev-101101-unauthRole",
+            "StackName": "amplify-fractl-dev-101101",
+            "StackId": "arn:aws:cloudformation:us-east-1:736159533590:stack/amplify-fractl-dev-101101/0a247dc0-5d72-11ea-8f36-121b58656156",
+            "AmplifyAppId": "d1c92sark58b2x"
+        },
+        "categories": {
+            "auth": {
+                "fractlabae9e15": {}
+            }
+        }
+    }
+}

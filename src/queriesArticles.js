@@ -1,5 +1,5 @@
-export const getArticle = `
-query Article ($URL:String){
+import gql from "graphql-tag"
+export const getArticle = gql(`query Article ($URL:String){
   Article (DocumentIdentifier:$URL){
     DocumentIdentifier
     Text
@@ -61,4 +61,4 @@ query Article ($URL:String){
       Link_Type
     }
 }
-}`
+}`)

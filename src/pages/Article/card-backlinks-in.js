@@ -49,7 +49,13 @@ const CardBacklinksIn = props => {
         : ""
       return (
         <ListItem key={Math.random()}>
-          <ListItemText primary={link.Title} secondary={date} />
+          <ListItemText
+            primary={link.Title}
+            secondary={date}
+            onClick={() => {
+              props.actions.setActive({ articleUrl: link.URL })
+            }}
+          />
         </ListItem>
       )
     }, defaultTo([], props.data.Links_To))
