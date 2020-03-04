@@ -1,4 +1,4 @@
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run?git_repo=https://github.com/bhuffman/fractl)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
