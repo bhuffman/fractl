@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-const CardBacklinksIn = props => {
+const CardBacklinks = props => {
   const classes = useStyles()
   const backlinks = values(
     map(link => {
@@ -59,14 +59,14 @@ const CardBacklinksIn = props => {
           </Link>
         </ListItem>
       )
-    }, defaultTo([], props.data.Links_To))
+    }, defaultTo([], props.links))
   )
 
   return (
     <Card className={classes.root} variant="outlined">
       <CardContent style={{ height: "100%" }}>
         <Typography color="textSecondary" gutterBottom>
-          Backlinks in ({length(defaultTo([], props.data.Links_To))})
+          {props.title} ({length(defaultTo([], props.links))})
         </Typography>
         <Divider className={classes.divider} className={classes.title} />
         <List dense={true}>{props.data && backlinks}</List>
@@ -75,4 +75,4 @@ const CardBacklinksIn = props => {
   )
 }
 
-export default NotebookKea(CardBacklinksIn)
+export default NotebookKea(CardBacklinks)

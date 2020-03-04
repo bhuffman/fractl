@@ -7,7 +7,7 @@ import { NotebookKea } from "../../keas/notebook-kea"
 import CardArticle from "./card-article"
 import CardMeta from "./card-meta"
 import CardKeyword from "./card-keywords"
-import CardBacklinksIn from "./card-backlinks-in"
+import CardBacklinksIn from "./card-backlinks"
 import testArticle from "../../assets/test.json"
 
 import { useQuery } from "@apollo/react-hooks"
@@ -34,16 +34,39 @@ const DrawerItems = props => {
         onLayoutChange={(l, a) => {
           props.actions.setLayout(a)
         }}
+        draggableHandle=".dragArea"
       >
         <div key="article">
+          <div className={"dragArea"} />
           {articleData && <CardArticle data={articleData} />}
         </div>
-        <div key="meta">{articleData && <CardMeta data={articleData} />}</div>
+        <div key="meta">
+          <div className={"dragArea"} />
+          {articleData && <CardMeta data={articleData} />}
+        </div>
         <div key="keywords">
+          <div className={"dragArea"} />
           {articleData && <CardKeyword data={articleData} />}
         </div>
         <div key="backlinksIn">
-          {articleData && <CardBacklinksIn data={articleData} />}
+          <div className={"dragArea"} />
+          {articleData && (
+            <CardBacklinksIn
+              data={articleData}
+              links={articleData.Links_To}
+              title={"Backlinks In "}
+            />
+          )}
+        </div>
+        <div key="backlinksOut">
+          <div className={"dragArea"} />
+          {articleData && (
+            <CardBacklinksIn
+              data={articleData}
+              links={articleData.Links_From}
+              title={"Backlinks Out "}
+            />
+          )}
         </div>
       </ResponsiveGridLayout>
     </div>

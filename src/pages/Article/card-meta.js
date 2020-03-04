@@ -15,6 +15,7 @@ import SentimentSatisfiedAltIcon from "@material-ui/icons/SentimentSatisfiedAlt"
 import SentimentSatisfiedIcon from "@material-ui/icons/SentimentSatisfied"
 import SentimentVeryDissatisfiedIcon from "@material-ui/icons/SentimentVeryDissatisfied"
 import Badge from "@material-ui/core/Badge"
+import Star from "./star"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -60,6 +61,9 @@ const useStyles = makeStyles(theme => ({
   centered: {
     display: "flex",
     justifyContent: "center"
+  },
+  flexGrid: {
+    display: "flex"
   }
 }))
 
@@ -68,7 +72,13 @@ const CardMeta = props => {
   const authors = map(author => {
     return (
       <Grid container key={Math.random()} item xs={12}>
-        <Grid item xs={4}>
+        <Grid item xs={4} className={classes.flexGrid}>
+          <Star
+            value={author.Name}
+            path={["authors"]}
+            size={20}
+            shift={"-2px"}
+          />
           <Typography className={classes.title} color="textSecondary">
             {author.Name}
           </Typography>
@@ -85,7 +95,13 @@ const CardMeta = props => {
   const publishers = map(pub => {
     return (
       <Grid container key={Math.random()} item xs={12}>
-        <Grid item xs={8}>
+        <Grid item xs={8} className={classes.flexGrid}>
+          <Star
+            value={pub.Domain_Name}
+            path={["entities"]}
+            size={20}
+            shift={"-2px"}
+          />
           <Typography className={classes.title} color="textSecondary">
             {pub.Domain_Name}
           </Typography>

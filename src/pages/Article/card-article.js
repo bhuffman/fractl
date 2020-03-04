@@ -58,7 +58,7 @@ const CardArticle = props => {
               value={props.data.DocumentIdentifier}
               path={["articles"]}
               size={25}
-              shift
+              shift="-5px"
             />
           </div>
           <Divider className={classes.divider} />

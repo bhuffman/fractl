@@ -4,12 +4,11 @@ import { makeStyles } from "@material-ui/core/styles"
 import { contains } from "ramda"
 import StarIcon from "@material-ui/icons/Star"
 import StarBorderIcon from "@material-ui/icons/StarBorder"
-import { yellow } from "@material-ui/core/colors"
 
 const useStyles = makeStyles(theme => ({
   root: {
     cursor: "pointer",
-    marginTop: props => (props.shift ? "-5px" : "0px")
+    marginTop: props => (props.shift ? props.shift : "0px")
   }
 }))
 

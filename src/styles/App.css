@@ -1,0 +1,6 @@
+.dragArea {
+  opacity: 0.5;
+  width: calc(100% - 56px);
+  height: 43px;
+  position: absolute;
+}

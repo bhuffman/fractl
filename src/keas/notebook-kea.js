@@ -54,31 +54,36 @@ export const NotebookKea = kea({
           { i: "article", x: 0, y: 0, w: 1, h: 2 },
           { i: "meta", x: 1, y: 0, w: 3, h: 2, minH: 2 },
           { i: "keywords", x: 4, y: 0, w: 1, h: 2 },
-          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 }
+          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 },
+          { i: "backlinksOut", x: 4, y: 0, w: 1, h: 2 }
         ],
         md: [
           { i: "article", x: 0, y: 0, w: 1, h: 2 },
           { i: "meta", x: 1, y: 0, w: 3, h: 2, minH: 2 },
           { i: "keywords", x: 4, y: 0, w: 1, h: 2 },
-          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 }
+          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 },
+          { i: "backlinksOut", x: 4, y: 0, w: 1, h: 2 }
         ],
         sm: [
           { i: "article", x: 0, y: 0, w: 1, h: 2 },
           { i: "meta", x: 1, y: 0, w: 3, h: 2, minH: 2 },
           { i: "keywords", x: 4, y: 0, w: 1, h: 2 },
-          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 }
+          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 },
+          { i: "backlinksOut", x: 4, y: 0, w: 1, h: 2 }
         ],
         xs: [
           { i: "article", x: 0, y: 0, w: 1, h: 2 },
           { i: "meta", x: 1, y: 0, w: 3, h: 2, minH: 2 },
           { i: "keywords", x: 4, y: 0, w: 1, h: 2 },
-          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 }
+          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 },
+          { i: "backlinksOut", x: 4, y: 0, w: 1, h: 2 }
         ],
         xxs: [
           { i: "article", x: 0, y: 0, w: 1, h: 2 },
           { i: "meta", x: 1, y: 0, w: 3, h: 2, minH: 2 },
           { i: "keywords", x: 4, y: 0, w: 1, h: 2 },
-          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 }
+          { i: "backlinksIn", x: 4, y: 0, w: 1, h: 2 },
+          { i: "backlinksOut", x: 4, y: 0, w: 1, h: 2 }
         ]
       },
       { persist: true },
