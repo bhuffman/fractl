@@ -1,0 +1,16 @@
+{
+  "name": "fractl",
+  "env": {
+    "BACKGROUND_COLOR": {
+      "description": "specify a css color",
+      "value": "#fefefe",
+      "required": false
+    },
+    "TITLE": {
+      "description": "Fractl Campground"
+    }
+  },
+  "options": {
+    "allow-unauthenticated": true
+  }
+}
