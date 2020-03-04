@@ -24,13 +24,15 @@ const DrawerItems = props => {
 
   const articleData =
     loading || isNil(data) ? null : head(defaultTo([], path(["Article"], data)))
+  console.log(articleData)
+
   return (
     <div>
       <ResponsiveGridLayout
         className="layout"
         layouts={props.layout}
         breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
-        cols={{ lg: 8, md: 6, sm: 2, xs: 1, xxs: 1 }}
+        cols={{ lg: 8, md: 6, sm: 2, xs: 2, xxs: 1 }}
         onLayoutChange={(l, a) => {
           props.actions.setLayout(a)
         }}
