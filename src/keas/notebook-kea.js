@@ -1,15 +1,20 @@
 import { kea } from "kea"
-import { append, set, lensIndex, remove, mergeRight } from "ramda"
+import {
+  append,
+  set,
+  lensIndex,
+  remove,
+  mergeRight,
+  prepend,
+  without
+} from "ramda"
 
 export const NotebookKea = kea({
   path: () => ["scenes", "user", "notebook"],
   actions: () => ({
     setActive: active => ({ active }),
-    setArticles: content => ({ content }),
-    setTopics: content => ({ content }),
-    setEntities: content => ({ content }),
-    setKeywords: content => ({ content }),
-    setAuthors: content => ({ content }),
+    addStarred: (starred, path) => ({ starred, path }),
+    removeStarred: (starred, path) => ({ starred, path }),
     setLayout: content => ({ content })
   }),
   reducers: ({ actions }) => ({
@@ -23,34 +28,24 @@ export const NotebookKea = kea({
           mergeRight(state, payload.active)
       }
     ],
-    articles: [
-      [],
+    starred: [
       {
-        [actions.setArticles]: (_, payload) => payload.content
-      }
-    ],
-    topics: [
-      [],
+        articles: [],
+        topics: [],
+        entities: [],
+        keywords: [],
+        authors: []
+      },
+      { persist: true },
       {
-        [actions.setTopics]: (_, payload) => payload.content
-      }
-    ],
-    entities: [
-      [],
-      {
-        [actions.setEntities]: (_, payload) => payload.content
-      }
-    ],
-    keywords: [
-      [],
-      {
-        [actions.setKeywords]: (_, payload) => payload.content
-      }
-    ],
-    authors: [
-      [],
-      {
-        [actions.setAuthors]: (_, payload) => payload.content
+        [actions.addStarred]: (state, payload) => ({
+          ...state,
+          [payload.path]: prepend(payload.starred, state[payload.path])
+        }),
+        [actions.removeStarred]: (state, payload) => ({
+          ...state,
+          [payload.path]: without(payload.starred, state[payload.path])
+        })
       }
     ],
     layout: [

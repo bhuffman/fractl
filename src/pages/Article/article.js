@@ -1,65 +1,21 @@
-import React, { useEffect, useRef, useState } from "react"
-import {
-  compose,
-  mergeRight,
-  defaultTo,
-  path,
-  length,
-  head,
-  isNil
-} from "ramda"
+import React from "react"
+import { compose, defaultTo, path, head, isNil } from "ramda"
 import "../../styles/resizable-styles.css"
 import "../../styles/grid-styles.css"
 import { Responsive, WidthProvider } from "react-grid-layout"
 import { NotebookKea } from "../../keas/notebook-kea"
-import { makeStyles } from "@material-ui/core/styles"
 import CardArticle from "./card-article"
 import CardMeta from "./card-meta"
 import CardKeyword from "./card-keywords"
 import CardBacklinksIn from "./card-backlinks-in"
 import testArticle from "../../assets/test.json"
 
-// import { useQuery } from "urql"
 import { useQuery } from "@apollo/react-hooks"
 import { getArticle } from "../../queriesArticles"
 
 const ResponsiveGridLayout = WidthProvider(Responsive)
 
-const useStyles = makeStyles(theme => ({
-  count: {
-    border: "1px solid gray",
-    borderRadius: "10px",
-    position: "absolute",
-    background: "white",
-    height: "18px",
-    width: "18px",
-    top: "30px",
-    left: "47px",
-    fontSize: "10px",
-    fontWeight: "600",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    color: "steelblue"
-  },
-  root: {
-    height: "100%"
-  },
-  bullet: {
-    display: "inline-block",
-    margin: "0 2px",
-    transform: "scale(0.8)"
-  },
-  title: {
-    fontSize: 14
-  },
-  pos: {
-    marginBottom: 12
-  }
-}))
-
 const DrawerItems = props => {
-  const classes = useStyles()
   const { loading, error, data } = useQuery(getArticle, {
     variables: {
       URL: props.active.articleUrl

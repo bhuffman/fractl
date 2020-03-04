@@ -5,6 +5,7 @@ import Card from "@material-ui/core/Card"
 import CardContent from "@material-ui/core/CardContent"
 import Typography from "@material-ui/core/Typography"
 import Divider from "@material-ui/core/Divider"
+import Star from "./star"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -32,6 +33,10 @@ const useStyles = makeStyles(theme => ({
   text: {
     paddingTop: "7px",
     whiteSpace: "pre-wrap"
+  },
+  titleSection: {
+    display: "flex",
+    justifyContent: "space-between"
   }
 }))
 
@@ -41,13 +46,21 @@ const CardArticle = props => {
     <Card className={classes.root} variant="outlined">
       {props.data && (
         <CardContent style={{ height: "100%" }}>
-          <Typography
-            className={classes.title}
-            color="textSecondary"
-            gutterBottom
-          >
-            {props.data.Title}
-          </Typography>
+          <div className={classes.titleSection}>
+            <Typography
+              className={classes.title}
+              color="textSecondary"
+              gutterBottom
+            >
+              {props.data.Title}
+            </Typography>
+            <Star
+              value={props.data.DocumentIdentifier}
+              path={["articles"]}
+              size={25}
+              shift
+            />
+          </div>
           <Divider className={classes.divider} />
           <div className={classes.body}>
             <Typography variant="body2" component="p" className={classes.text}>

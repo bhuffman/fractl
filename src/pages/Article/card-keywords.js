@@ -11,6 +11,7 @@ import Divider from "@material-ui/core/Divider"
 import Chip from "@material-ui/core/Chip"
 import Badge from "@material-ui/core/Badge"
 import blue from "@material-ui/core/colors/blue"
+import Keyword from "./keyword"
 
 const color = blue[300]
 
@@ -22,11 +23,6 @@ const useStyles = makeStyles(theme => ({
   keyword: {
     margin: "3px"
   },
-  badges: {
-    border: "1px solid #5c5c90",
-    backgroundColor: "white",
-    opacity: ".5"
-  },
   title: {
     marginBottom: "20px"
   }
@@ -37,17 +33,13 @@ const CardKeyword = props => {
   const keywords = values(
     map(keyword => {
       return (
-        <Badge
+        <Keyword
           key={keyword.Keyword}
-          badgeContent={keyword.Mentions}
-          className={classes.badge}
-        >
-          <Chip
-            label={keyword.Keyword}
-            variant="outlined"
-            className={classes.keyword}
-          />
-        </Badge>
+          keyword={keyword.Keyword}
+          mentions={keyword.Mentions}
+          value={keyword.Keyword}
+          path={["keywords"]}
+        />
       )
     }, defaultTo([], props.data.Keywords))
   )

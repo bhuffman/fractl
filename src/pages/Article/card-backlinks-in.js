@@ -6,12 +6,11 @@ import Card from "@material-ui/core/Card"
 import CardContent from "@material-ui/core/CardContent"
 import Typography from "@material-ui/core/Typography"
 import Divider from "@material-ui/core/Divider"
-import blue from "@material-ui/core/colors/blue"
 import List from "@material-ui/core/List"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
-
-const color = blue[300]
+import Link from "@material-ui/core/Link"
+import Star from "./star"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -25,20 +24,14 @@ const useStyles = makeStyles(theme => ({
     border: "1px solid #5c5c90",
     backgroundColor: "white",
     opacity: ".5"
+  },
+  starLink: {
+    marginLeft: "5px"
+  },
+  listItem: {
+    marginLeft: "-10px"
   }
 }))
-
-// "Links_To": [
-//   {
-//     "Title": "HPR Streaming Music Show Archive",
-//     "URL": "https://www.hawaiipublicradio.org/post/hpr-streaming-music-show-archive",
-//     "Date": {
-//       "month": null,
-//       "day": null,
-//       "year": null
-//     },
-//     "Link_Type": "DoFollow"
-//   },
 
 const CardBacklinksIn = props => {
   const classes = useStyles()
@@ -48,14 +41,22 @@ const CardBacklinksIn = props => {
         ? link.Date.day + "/" + link.Date.month + "/" + link.Date.year
         : ""
       return (
-        <ListItem key={Math.random()}>
-          <ListItemText
-            primary={link.Title}
-            secondary={date}
+        <ListItem key={Math.random()} className={classes.listItem}>
+          <Star
+            value={link.URL}
+            path={["articles"]}
+            size={25}
+            className={classes.star}
+          />
+          <Link
+            href="#"
             onClick={() => {
               props.actions.setActive({ articleUrl: link.URL })
             }}
-          />
+            className={classes.starLink}
+          >
+            <ListItemText primary={link.Title} secondary={date} />
+          </Link>
         </ListItem>
       )
     }, defaultTo([], props.data.Links_To))

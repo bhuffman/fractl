@@ -51,7 +51,7 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <Badge badgeContent={length(props.authors)} color="primary">
+            <Badge badgeContent={length(props.starred.authors)} color="primary">
               <PersonIcon />
             </Badge>
           </ListItemIcon>
@@ -69,7 +69,10 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <Badge badgeContent={length(props.entities)} color="primary">
+            <Badge
+              badgeContent={length(props.starred.entities)}
+              color="primary"
+            >
               <BusinessIcon />
             </Badge>
           </ListItemIcon>
@@ -87,7 +90,7 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <Badge badgeContent={length(props.topics)} color="primary">
+            <Badge badgeContent={length(props.starred.topics)} color="primary">
               <FormatListBulletedIcon />
             </Badge>
           </ListItemIcon>
@@ -105,7 +108,10 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <Badge badgeContent={length(props.keywords)} color="primary">
+            <Badge
+              badgeContent={length(props.starred.keywords)}
+              color="primary"
+            >
               <VpnKeyIcon />
             </Badge>
           </ListItemIcon>
@@ -123,7 +129,10 @@ const DrawerItems = props => {
           }}
         >
           <ListItemIcon>
-            <Badge badgeContent={length(props.articles)} color="primary">
+            <Badge
+              badgeContent={length(props.starred.articles)}
+              color="primary"
+            >
               <MenuBookIcon />
             </Badge>
           </ListItemIcon>
